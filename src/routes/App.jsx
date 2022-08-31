@@ -1,13 +1,17 @@
 import React from "react";
-import Formulario from "../containers/Formulario";
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Layout from "../containers/Layout";
+import Home from "../pages/Home";
 import '../styles/global.css';
 
 const App = () => {
     return (
-        <Layout>
-            <Formulario/>
-        </Layout>
+        <BrowserRouter>
+            <Layout>
+                <Home/>
+            </Layout>
+        </BrowserRouter>
+
     );
 }
 export default App;
