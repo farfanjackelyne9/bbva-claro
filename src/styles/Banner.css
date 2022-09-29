@@ -1,0 +1,41 @@
+.content-img-banner {
+    width: 100%;
+    max-width: 70%;
+    float: left;
+    text-align: center;
+}
+.content-text-bottom {
+    width: 100%;
+    max-width: 800px;
+}
+.banner-content{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1240px;
+}
+.content-banner-ppal {
+    background-image: url(https://static.claro.com.pe/img/otros/fondo-12-08-2021.png) !important;
+    background-size: cover;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1240px;
+    position: relative;
+    display: flex;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.logo-banco {
+    display: block;
+    position: relative;
+    top: -18px;
+    left: -2.2%;
+}
+.img-text {
+    margin-right: 20px;
+    text-align: left;
+    float: left;
+    padding-left: 30px;
+}
