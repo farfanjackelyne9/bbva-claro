@@ -1,3 +1,55 @@
-.contenedor-header-general{
-    background-color: red;
+.contenedor-header-general {
+    background-color: #283342;
+    display: block;
+    color: #fff;
+    padding: 8px;
+    height: 20px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1240px;
+}
+.contenedor-header-2 .contenedor {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1240px;
+}
+.Header {
+    background-color: #283342;
+}
+.contenedor-header-2 {
+    background: #ee122c;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 15%);
+    top: -100px;
+    color: #fff;
+    padding-left: 0;
+    padding-right: 0;
+}
+.contenedor-header-general a {
+    color: #fff;
+    text-decoration: none;
+}
+.contenedor-header-general ul {
+    display: inline-flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    float: left;
+}
+.contenedor-header-general nav {
+    display: block;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.contenedor-header-general ul li:nth-child(2) {
+    padding-left: 10px;
+}
+.btn-top-sigue-pedido {
+    float: right;
+}
+.logo-claro{
+    width: 144px;
+    padding-bottom: inherit;
 }

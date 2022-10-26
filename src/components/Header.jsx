@@ -15,8 +15,8 @@ const Header = () => {
                                 <a href="">Negocios</a>
                             </li>
                         </ul>
-                        <div>
-                            <img src="https://tiendaclaro.pe/assets/img/header/car-store.svg?date=2021020201" alt="" />
+                        <div className="btn-top-sigue-pedido">
+                            <img src="https://tiendaclaro.pe/assets/img/header/car-store.svg?date=2021020201" alt="" /> 
                             <span>Sigue tu pedido</span>
                         </div>
                     </nav>
@@ -26,7 +26,7 @@ const Header = () => {
                 <div className="contenedor">
                     <nav>
                         <a href="">
-                            <img src="https://tiendaclaro.pe/assets/img/header/logo.png?date=2021020201" alt="" />
+                            <img className="logo-claro" src="https://tiendaclaro.pe/assets/img/header/logo.png?date=2021020201" alt="" />
                         </a>
                         <div>
                             <button>
