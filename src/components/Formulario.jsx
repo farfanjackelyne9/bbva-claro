@@ -4,7 +4,7 @@ import '../styles/Formulario.css';
 const Formulario = () => {
     return (
         <div className="contenedor-formulario">
-            <h2>Ingresa tus datos y te llamaremos.</h2>
+            <h2>Ingresa tus datos y te llamaremos .</h2>
             <form>
             <div className="content-campos-form">
                 <input type="text" name="myname[0]" />
